@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="toralipse.myapp.likeit.SelectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image1"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image2"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image3"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image4"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image5"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image6"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image7"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image8"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image9"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image10"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image11"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <toralipse.myapp.likeit.MySelectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image12"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exec_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:text="OK!"/>
+
+</LinearLayout>
